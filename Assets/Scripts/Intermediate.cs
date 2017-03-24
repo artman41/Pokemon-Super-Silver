@@ -1,19 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Scripts.Poke;
 
-public class Intermediate : MonoBehaviour {
+namespace Assets.Scripts {
 
-    static public Pokemon pokeEncounter;
-    static public Pokemon pokePlayer;
-    static public Vector3 playerPos;
-    static public bool returnFromSave;
-	// Use this for initialization
-	void Start () {
+    public class Intermediate : MonoBehaviour {
+
+        static public Pokemon pokeEncounter;
+        static public Pokemon pokePlayer;
+        static public Vector3 playerPos;
+        static public bool returnFromSave;
 
     }
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }

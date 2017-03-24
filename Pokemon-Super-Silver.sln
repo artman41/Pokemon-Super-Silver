@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon-Super-Silver.CSharp.Plugins", "Pokemon-Super-Silver.CSharp.Plugins.csproj", "{1614B912-9154-278E-67A7-F694FB8AEAB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon-Super-Silver.CSharp", "Pokemon-Super-Silver.CSharp.csproj", "{2526A092-B825-4BB7-2A31-00EEFC3DEA97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1614B912-9154-278E-67A7-F694FB8AEAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1614B912-9154-278E-67A7-F694FB8AEAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1614B912-9154-278E-67A7-F694FB8AEAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1614B912-9154-278E-67A7-F694FB8AEAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2526A092-B825-4BB7-2A31-00EEFC3DEA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2526A092-B825-4BB7-2A31-00EEFC3DEA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2526A092-B825-4BB7-2A31-00EEFC3DEA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2526A092-B825-4BB7-2A31-00EEFC3DEA97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

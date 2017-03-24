@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.4.1f1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -82,13 +84,23 @@
     <Compile Include="Assets\Scripts\HighlightScript.cs" />
     <Compile Include="Assets\Scripts\Intermediate.cs" />
     <Compile Include="Assets\Scripts\Pokemon.cs" />
+    <Compile Include="Assets\Scripts\Pokemon\BattleHandler.cs" />
+    <Compile Include="Assets\Scripts\Pokemon\ExtensionsEnum.cs" />
+    <Compile Include="Assets\Scripts\Pokemon\jsonMod.cs" />
+    <Compile Include="Assets\Scripts\Pokemon\Pokemon.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\jsonMod.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Resources\pokemon.json" />
+    <None Include="Assets\Resources\pokemon.json.meta" />
+    <None Include="Assets\Scripts\Pokemon\BattleHandler.cs.meta" />
+    <None Include="Assets\Scripts\Pokemon\jsonMod.cs.meta" />
+    <None Include="Assets\Scripts\Pokemon\Pokemon.cs.meta" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
     <None Include="Assets\Terrain\Materials\DiffuseShake.shader" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
